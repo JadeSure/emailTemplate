@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValkTrade Notification</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: #fff;
+            color: #454545;
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            padding: 0;
+            margin: 0;
+            box-sizing: content-box;
+        }
+
+        .header{
+            position: relative;
+            border-bottom: 3px dashed #000000;
+            width: 100%;
+            height: 88px;
+        }
+
+        .header-image{
+            position: relative;
+            top: 32px;
+            left: 87px;
+            width: 302px;
+        }
+
+        .header img{
+            width: 100%;
+        }
+
+        .content{
+            display: relative;
+            width: 424px;
+            margin: 0 auto;
+            border-left: 3px dashed #000000;
+            border-right: 3px dashed #000000;
+        }
+
+        .content-image{
+            width: 230px;
+            margin: 0 auto;
+            padding-top: 16px;
+        }
+
+        .content-image img{
+            width: 100%;
+        }
+
+        .content-article{
+            position: relative;
+            width: 366px;
+            margin: 0 auto;
+            padding-bottom: 43px;
+        }
+
+        .footer{
+            background-color: #222222;
+            color: #FFFFFF;
+        }
+
+        .footer-content{
+            width: 390px;
+            margin: 0 auto;
+            padding: 16px 0 16px 0;
+        }
+
+        .footer-content_title{
+            position: relative;
+            width: 100%;
+            height: 62px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-content_title a:first-child{
+            margin-right: 31px;
+        }
+
+        .footer-content_disclaimer{
+            line-height: 12px;
+            font-size: 10px;
+            font-weight: 400;
+        }
+
+        @media screen and (min-width:1024px){
+            .header{
+                height: 126px;
+            }
+
+            .header-image{
+                width: 390px;
+                left: 146px;
+                top: 44px;
+            }
+
+            .content{
+                width:986px;
+            }
+
+            .content-image{
+                width: 458px;
+                padding-bottom: 42px;
+            }
+
+            .content-article{
+                width: 800px;
+                padding-bottom: 140px;
+            }
+
+            .footer-content{
+                width: 986px;
+                margin: 0 auto;
+                padding: 16px 0 16px 0;
+            }
+
+            .footer-content_logo{
+                width:250px;
+                margin-right: 70px;
+            }
+
+            .footer-content_title a:first-child{
+                margin-right: 20px;
+            }
+
+            .footer-content_title-contact img{
+                display: inline-block;
+            } 
+
+            .footer-content_title-contact img:nth-child(1){
+                width: 120px;
+                margin-right: 20px;
+                padding-right: 20px;
+                border-right: 1px solid #FFFFFF;
+            } 
+
+            .footer-content_title-contact img:nth-child(2){
+                width: 141px;
+                margin-right: 20px;
+                padding-right: 20px;
+                border-right: 1px solid #FFFFFF;
+            } 
+
+            .footer-content_title-contact img:nth-child(3){
+                width: 244px;
+            } 
+
+            .footer-content_title-contact{
+                display: flex;
+
+            }
+
+            .footer-content_disclaimer{
+                line-height: 15px;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .header-image{
+                width: 280px;
+                left: 0px;
+                margin: 0 auto;
+            }
+
+            .content{
+                width:341px;
+            }
+
+            .content-image{
+                width: 197px;
+                padding-top: 10px;
+                padding-bottom: 22px;
+            }
+
+            .content-article{
+                width: 311px;
+                padding-bottom: 32px;
+            }
+
+            .footer-content{
+                width: 341px;
+                margin: 0 auto;
+                padding: 16px 0 16px 0;
+            }
+
+            .footer-content_logo{
+                width:136px;
+            }
+
+            .footer-content_title a:first-child{
+                margin-right: 20px;
+            }
+
+            .footer-content_disclaimer{
+                line-height: 15px;
+                font-size: 8.5px;
+                font-weight: 400;
+            }
+        }
+    </style>
+    </head>
+    <body>
+            <div class="header">
+                <div class="header-image">
+                    <img src="./Trademark_Valk_V1.svg" alt="ValkTradeLogo.svg">
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content-image">
+                    <img src="./microPhone.svg" alt="microPhone">
+                </div>
+                <div class="content-article">
+                    <p>Dear ${×××},</p>
+                    </br>
+                    <p>Thank you for choosing VALK TRADE as your trading partner! You have successfully registered as a member of VALK TRADE website! </p>
+                    </br>
+                    <p>To manage your account, please login with your username and password to the Valk Trade Client Portal:<a href="https://valktrade.com.au/auth/login"> Client Portal</a></p>
+                    </br>
+                    <p>Please note that this is only the login details of VALK TRADE website, and is not used for our online trading system.</p>
+
+                    <p>If you intend to open a VALK TRADE trading account, VALK TRADE needs to collect and verify your KYC (Know Your Customer) information to meet the regulatory requirements.</p>
+                    <p>You can upload your documents by logging in the following link.<a href="https://valktrade.com.au/admin/profile">https://valktrade.com.au/admin/profile</a></p>
+                    </br>
+                    <p>Identity documents include Driver License, Passport, Proof of Residence, etc. All of the documents should be valid and issued by a government agency.</p>
+                    <p>For the driver's license, please provide a copy of both sides of the license, and for the passport, please provide a scan or picture of the bio page containing the passport number and your photograph.</p>
+                    <p>Accepted Proof of Residence include utility bill, bank statement, and telephone/internet bill (mobile bills not accepted), and should be dated within 3 months before the date of uploading.</p>
+                    </br>
+                    <p>We look forward to welcoming you as a fully verified VALK TRADE client.</p>
+                    </br>
+                    <p>Best Regards,</p>
+                    <p>VALK TRADE</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-content">
+                    <div class="footer-content_title">
+                        <a href="https://www.valktrade.com.au/">
+                            <img src="./Trademark_Valk_V2.svg" class="footer-content_logo" alt="">
+                        </a>
+                        <div class="footer-content_title-contact">
+                            <img src="./footer_phone.svg" alt="">
+                            <img src="./footer_web.svg" alt="">
+                            <img src="./footer_email.svg" alt="">
+                        </div>
+                
+                        <!-- <a href="https://www.valktrade.com.au/">
+                            <img src="./contactInfo.svg" alt="">
+                        </a> -->
+                   
+                    </div>
+                    
+                    <div class="footer-content_disclaimer">
+                        <p>Disclaimer :</p>
+                        <p>Xmeta Pty Ltd trading as Valk Trade (“Valk Trade”) (ABN: 79 115 459 124) holds an Australian Financial Services License issued by the Australian Securities and Investments Commission (AFSL Number: 297499) to carry on a financial services business in Australia. </p>
+
+                        <p>Any general advice provided in this email has been prepared without taking into account your objectives, financial situation or needs. Before acting on the advice, you should consider the appropriateness of the advice with regard to your objectives, financial situation and needs. You should seek independent financial advice prior to making an investment decision about a financial product. You should consult appropriate professional advisers on any legal, stamp duty, taxation and accounting implications of making an investment. Where the electronic communication relates to the purchase of a particular product, you should obtain a copy of the relevant offer document before making any decisions in relation to the product. </p>
+
+                        <p>OTC derivatives, including margin foreign exchange contracts and contracts for difference are leveraged products that carry a high level of risk to your capital. Trading is not suitable for everyone. You may incur losses equal to your deposits with us. You do not own, or have any rights to, the underlying assets which the OTC derivative is referable to. You should only trade with money you can afford to lose. </p>
+
+                        <p>Before you decide whether or not to invest any products referred to in this email, being over the counter (OTC) derivatives, it is important for you to read and consider our Financial Services Guide (FSG), Product Disclosure Statement (PDS), Client Agreement, Target Market Determination, and our other documents, to ensure that you fully understand the risks involved. You should also consider if you’re part of our target market. Fees, charges and commissions apply. </p>
+
+                        <p>If you have received this communication in error, please destroy all electronic and paper copies and notify the sender immediately. Erroneous transmission is not intended to waive confidentiality or privilege. We reserve the right, to the extent permitted under applicable law, to monitor electronic communications.</p>
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
